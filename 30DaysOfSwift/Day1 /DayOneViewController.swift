@@ -22,6 +22,7 @@ class DayOneViewController: UIViewController {
     }
     
     @IBAction func tapButtonPressed(_ sender: UIButton) {
+        print(Int(currentCountLabel.text!)!)
         if let numberFromLabel = formatter.number(from: currentCountLabel.text ?? "") {
                   currentCountLabel.text = "\(numberFromLabel.intValue + 1)"
               }

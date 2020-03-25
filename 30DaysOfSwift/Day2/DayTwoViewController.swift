@@ -1,21 +1,19 @@
 //
-//  ViewController.swift
+//  DayTwoViewController.swift
 //  30DaysOfSwift
 //
-//  Created by Yaz Burrell on 3/24/20.
+//  Created by Yaz Burrell on 3/25/20.
 //  Copyright © 2020 Yaz Burrell. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class DayTwoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("H e l l o")
-        
-    }
 
+    }
+    
 
 }
-
