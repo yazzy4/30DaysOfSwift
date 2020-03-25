@@ -9,22 +9,27 @@
 import UIKit
 
 class DayOneViewController: UIViewController {
-
+    
+    @IBOutlet weak var currentCountLabel: UILabel!
+    
+    let formatter = NumberFormatter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.title = "Tap Counter"
+        formatter.allowsFloats = false
+      
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func tapButtonPressed(_ sender: UIButton) {
+        if let numberFromLabel = formatter.number(from: currentCountLabel.text ?? "") {
+                  currentCountLabel.text = "\(numberFromLabel.intValue + 1)"
+              }
     }
-    */
+    
+    
+    @IBAction func resetButtonPressed(_ sender: UIButton) {
+    }
+    
 
 }

@@ -14,7 +14,6 @@
 		91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FD58E8242A85FE0029525F /* Assets.xcassets */; };
 		91FD58EC242A85FE0029525F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD58EA242A85FE0029525F /* LaunchScreen.storyboard */; };
 		91FD58F6242A965A0029525F /* DayOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD58F5242A965A0029525F /* DayOneViewController.swift */; };
-		91FD58F8242A96800029525F /* DayOneStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD58F7242A96800029525F /* DayOneStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		91FD58EB242A85FE0029525F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91FD58ED242A85FE0029525F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91FD58F5242A965A0029525F /* DayOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOneViewController.swift; sourceTree = "<group>"; };
-		91FD58F7242A96800029525F /* DayOneStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DayOneStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,6 @@
 				91FD58DF242A85FB0029525F /* AppDelegate.swift */,
 				91FD58E1242A85FB0029525F /* SceneDelegate.swift */,
 				91FD58E3242A85FB0029525F /* ViewController.swift */,
-				91FD58E5242A85FB0029525F /* Main.storyboard */,
 			);
 			path = "Main Page ";
 			sourceTree = "<group>";
@@ -83,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				91FD58F5242A965A0029525F /* DayOneViewController.swift */,
-				91FD58F7242A96800029525F /* DayOneStoryBoard.storyboard */,
+				91FD58E5242A85FB0029525F /* Main.storyboard */,
 				91FD58F3242A95E50029525F /* Main Page  */,
 			);
 			path = "Day 1 ";
@@ -150,7 +147,6 @@
 				91FD58EC242A85FE0029525F /* LaunchScreen.storyboard in Resources */,
 				91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */,
 				91FD58E7242A85FB0029525F /* Main.storyboard in Resources */,
-				91FD58F8242A96800029525F /* DayOneStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
