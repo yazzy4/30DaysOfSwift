@@ -29,6 +29,7 @@ class DayOneViewController: UIViewController {
     
     
     @IBAction func resetButtonPressed(_ sender: UIButton) {
+        currentCountLabel.text = "\(0)"
     }
     
 
