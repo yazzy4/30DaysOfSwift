@@ -13,6 +13,8 @@
 		914D38DD242BE77100F47E33 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D38DC242BE77100F47E33 /* UIColor+Extension.swift */; };
 		914D38E0242BE7EE00F47E33 /* Day2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D38DF242BE7EE00F47E33 /* Day2.storyboard */; };
 		914D38E2242BE81B00F47E33 /* DayTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D38E1242BE81B00F47E33 /* DayTwoViewController.swift */; };
+		914F5627243F8F0C0049FE41 /* DayThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F5626243F8F0C0049FE41 /* DayThreeViewController.swift */; };
+		914F5629243F8F230049FE41 /* DayThreeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914F5628243F8F230049FE41 /* DayThreeStoryboard.storyboard */; };
 		91FD58E0242A85FB0029525F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD58DF242A85FB0029525F /* AppDelegate.swift */; };
 		91FD58E2242A85FB0029525F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD58E1242A85FB0029525F /* SceneDelegate.swift */; };
 		91FD58E4242A85FB0029525F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD58E3242A85FB0029525F /* ViewController.swift */; };
@@ -29,6 +31,8 @@
 		914D38DC242BE77100F47E33 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		914D38DF242BE7EE00F47E33 /* Day2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day2.storyboard; sourceTree = "<group>"; };
 		914D38E1242BE81B00F47E33 /* DayTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwoViewController.swift; sourceTree = "<group>"; };
+		914F5626243F8F0C0049FE41 /* DayThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayThreeViewController.swift; sourceTree = "<group>"; };
+		914F5628243F8F230049FE41 /* DayThreeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DayThreeStoryboard.storyboard; sourceTree = "<group>"; };
 		91FD58DC242A85FB0029525F /* 30DaysOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30DaysOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FD58DF242A85FB0029525F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91FD58E1242A85FB0029525F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,15 @@
 			path = Day2;
 			sourceTree = "<group>";
 		};
+		914F5625243F8EE30049FE41 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				914F5626243F8F0C0049FE41 /* DayThreeViewController.swift */,
+				914F5628243F8F230049FE41 /* DayThreeStoryboard.storyboard */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
 		91FD58D3242A85FB0029525F = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +92,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				914F5625243F8EE30049FE41 /* Day3 */,
 				914D38DE242BE79C00F47E33 /* Day2 */,
 				91FD58F4242A95F10029525F /* Day1  */,
 				91FD58E8242A85FE0029525F /* Assets.xcassets */,
@@ -171,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91FD58EC242A85FE0029525F /* LaunchScreen.storyboard in Resources */,
+				914F5629243F8F230049FE41 /* DayThreeStoryboard.storyboard in Resources */,
 				91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */,
 				914D38E0242BE7EE00F47E33 /* Day2.storyboard in Resources */,
 				91FD58E7242A85FB0029525F /* Day1.storyboard in Resources */,
@@ -187,6 +202,7 @@
 			files = (
 				914D38DD242BE77100F47E33 /* UIColor+Extension.swift in Sources */,
 				91FD58F6242A965A0029525F /* DayOneViewController.swift in Sources */,
+				914F5627243F8F0C0049FE41 /* DayThreeViewController.swift in Sources */,
 				91FD58E4242A85FB0029525F /* ViewController.swift in Sources */,
 				914D38D9242BE6E000F47E33 /* NavModel.swift in Sources */,
 				914D38E2242BE81B00F47E33 /* DayTwoViewController.swift in Sources */,
