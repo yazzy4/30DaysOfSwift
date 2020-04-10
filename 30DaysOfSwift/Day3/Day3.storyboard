@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bvj-S1-guO">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day Three View Controller-->
+        <scene sceneID="cNd-Ub-06T">
+            <objects>
+                <viewController id="Bvj-S1-guO" customClass="DayThreeViewController" customModule="_0DaysOfSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3OP-Ux-vnG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alpha Slider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GoE-Wi-Hk7">
+                                <rect key="frame" x="103" y="263" width="169.5" height="41"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cmH-dA-PcR">
+                                <rect key="frame" x="28" y="314" width="319" height="31"/>
+                                <connections>
+                                    <action selector="didChangeSliderValue:" destination="Bvj-S1-guO" eventType="valueChanged" id="kIL-ZQ-le4"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GoE-Wi-Hk7" firstAttribute="centerY" secondItem="3OP-Ux-vnG" secondAttribute="centerY" constant="-50" id="AZe-Xq-7cL"/>
+                            <constraint firstItem="cmH-dA-PcR" firstAttribute="leading" secondItem="aSg-FA-fZn" secondAttribute="leading" constant="30" id="Qbl-t5-OYk"/>
+                            <constraint firstItem="aSg-FA-fZn" firstAttribute="trailing" secondItem="cmH-dA-PcR" secondAttribute="trailing" constant="30" id="dr4-hO-rxG"/>
+                            <constraint firstItem="cmH-dA-PcR" firstAttribute="top" secondItem="GoE-Wi-Hk7" secondAttribute="bottom" constant="10" id="j1o-iA-xQl"/>
+                            <constraint firstItem="GoE-Wi-Hk7" firstAttribute="centerX" secondItem="3OP-Ux-vnG" secondAttribute="centerX" id="uvT-Cd-Rlc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aSg-FA-fZn"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="GoE-Wi-Hk7" id="qCC-Sn-1ac"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vlh-Qu-5bD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="104"/>
+        </scene>
+    </scenes>
+</document>
