@@ -16,6 +16,7 @@ class DayThreeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         label.alpha = 0.5
+        self.title = "Alpha Slider"
        
     }
     
