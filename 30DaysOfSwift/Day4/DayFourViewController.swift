@@ -9,14 +9,51 @@
 import UIKit
 
 class DayFourViewController: UIViewController {
-
+    
+    @IBOutlet weak var mainAmountField: UITextField!
+    @IBOutlet weak var tipAmountLabel: UILabel!
+    @IBOutlet weak var totalAmountLabel: UILabel!
+    
+    var numberFormatter = NumberFormatter()
+    var tipModel = TipModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    
+        numberFormatter.currencySymbol = "$"
+        numberFormatter.allowsFloats = true
+        
+        //tap tap gesture to dismiss keyboard
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapOnScreen(_:)))
+        self.view.addGestureRecognizer(tapGesture)
     }
     
+    @objc func didTapOnScreen(_ sender: UITapGestureRecognizer){
+        self.view.endEditing(true)
+    }
 
+    @IBAction func didChangeSegment(_ sender: UISegmentedControl) {
+        if let number = numberFormatter.number(from: mainAmountField.text!) {
+            tipModel.mainAmount = number.doubleValue
+            tipModel.mainAmount = number.doubleValue
+            tipModel.tipPercentage = segmentToTipPercent(index: sender.selectedSegmentIndex)
+            
+        }
+    }
+    
+    func segmentToTipPercent(index: Int) -> Double {
+        switch index {
+        case 0:
+            return 0.10
+        case 1:
+            return 0.15
+        case 2:
+            return 0.18
+        case 3:
+            return 0.20
+        default:
+            return 0.18
+        }
+    }
 }
 
 class TipModel {
