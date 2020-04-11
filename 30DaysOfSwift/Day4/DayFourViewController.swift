@@ -13,18 +13,22 @@ class DayFourViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    
     }
     
 
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+class TipModel {
+    var mainAmount: Double?
+    var tipPercentage: Double?
+    
+    func calculateTipAmount() -> (totalAmount: Double, tipAmount:Double){
+        guard let mainAmount = mainAmount, let tipPercentage = tipPercentage else {
+            return(0.0,0.0)
+        }
+        //How do you calculate tip? total * percent then percent + main amount
+        return(mainAmount * tipPercentage, (mainAmount + tipPercentage) + tipPercentage)
     }
-    */
-
+    
 }
