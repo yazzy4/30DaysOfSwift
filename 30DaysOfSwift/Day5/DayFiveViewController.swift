@@ -17,7 +17,7 @@ class DayFiveViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        self.title = "Table View"
+        self.title = "Basic Table View"
 
     }
    
