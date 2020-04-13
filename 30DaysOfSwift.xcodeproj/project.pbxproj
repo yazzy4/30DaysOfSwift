@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91281A2A2444FEF600225690 /* DayFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A292444FEF600225690 /* DayFiveViewController.swift */; };
+		91281A2C2444FF0100225690 /* Day5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91281A2B2444FF0100225690 /* Day5.storyboard */; };
 		914D38D7242BE58300F47E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D38D6242BE58300F47E33 /* Main.storyboard */; };
 		914D38D9242BE6E000F47E33 /* NavModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D38D8242BE6E000F47E33 /* NavModel.swift */; };
 		914D38DB242BE74C00F47E33 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D38DA242BE74C00F47E33 /* ContentTableViewCell.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91281A292444FEF600225690 /* DayFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFiveViewController.swift; sourceTree = "<group>"; };
+		91281A2B2444FF0100225690 /* Day5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day5.storyboard; sourceTree = "<group>"; };
 		914D38D6242BE58300F47E33 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		914D38D8242BE6E000F47E33 /* NavModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavModel.swift; sourceTree = "<group>"; };
 		914D38DA242BE74C00F47E33 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
@@ -59,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91281A282444FEBE00225690 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				91281A292444FEF600225690 /* DayFiveViewController.swift */,
+				91281A2B2444FF0100225690 /* Day5.storyboard */,
+			);
+			path = Day5;
+			sourceTree = "<group>";
+		};
 		914D38DE242BE79C00F47E33 /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +118,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				91281A282444FEBE00225690 /* Day5 */,
 				914F562A2441093F0049FE41 /* Day4 */,
 				914F5625243F8EE30049FE41 /* Day3 */,
 				914D38DE242BE79C00F47E33 /* Day2 */,
@@ -199,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91FD58EC242A85FE0029525F /* LaunchScreen.storyboard in Resources */,
+				91281A2C2444FF0100225690 /* Day5.storyboard in Resources */,
 				914F5629243F8F230049FE41 /* Day3.storyboard in Resources */,
 				914F562E244109730049FE41 /* Day4.storyboard in Resources */,
 				91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */,
@@ -215,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91281A2A2444FEF600225690 /* DayFiveViewController.swift in Sources */,
 				914D38DD242BE77100F47E33 /* UIColor+Extension.swift in Sources */,
 				91FD58F6242A965A0029525F /* DayOneViewController.swift in Sources */,
 				914F5627243F8F0C0049FE41 /* DayThreeViewController.swift in Sources */,
