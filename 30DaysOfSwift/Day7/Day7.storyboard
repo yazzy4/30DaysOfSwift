@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="77e-p1-FSb">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day Seven View Controller-->
+        <scene sceneID="4iU-ra-13F">
+            <objects>
+                <viewController id="77e-p1-FSb" customClass="DaySevenViewController" customModule="_0DaysOfSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bJQ-kK-dbA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N8X-A2-g9n">
+                                <rect key="frame" x="10" y="10" width="355" height="647"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="N8X-A2-g9n" firstAttribute="leading" secondItem="3Qk-US-Ngz" secondAttribute="leading" constant="10" id="0dw-4x-QiG"/>
+                            <constraint firstItem="N8X-A2-g9n" firstAttribute="top" secondItem="3Qk-US-Ngz" secondAttribute="top" constant="10" id="cfQ-Oe-VBH"/>
+                            <constraint firstItem="3Qk-US-Ngz" firstAttribute="trailing" secondItem="N8X-A2-g9n" secondAttribute="trailing" constant="10" id="e8b-aS-LGO"/>
+                            <constraint firstItem="3Qk-US-Ngz" firstAttribute="bottom" secondItem="N8X-A2-g9n" secondAttribute="bottom" constant="10" id="mYT-Ij-w28"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3Qk-US-Ngz"/>
+                    </view>
+                    <connections>
+                        <segue destination="NbX-EW-Nhx" kind="show" id="K9n-G9-kOV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oyj-pk-O5W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="191" y="55"/>
+        </scene>
+        <!--Day Seven Detail View Controller-->
+        <scene sceneID="uQh-Yw-ylt">
+            <objects>
+                <viewController id="NbX-EW-Nhx" customClass="DaySevenDetailViewController" customModule="_0DaysOfSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="09G-Pe-wr6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HHm-CM-rjd">
+                                <rect key="frame" x="10" y="10" width="355" height="627"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="B0S-8c-Ly1" firstAttribute="trailing" secondItem="HHm-CM-rjd" secondAttribute="trailing" constant="10" id="J6W-Hu-INt"/>
+                            <constraint firstItem="B0S-8c-Ly1" firstAttribute="bottom" secondItem="HHm-CM-rjd" secondAttribute="bottom" constant="10" id="ufN-B9-QLs"/>
+                            <constraint firstItem="HHm-CM-rjd" firstAttribute="top" secondItem="B0S-8c-Ly1" secondAttribute="top" constant="10" id="vdq-du-k5g"/>
+                            <constraint firstItem="HHm-CM-rjd" firstAttribute="leading" secondItem="B0S-8c-Ly1" secondAttribute="leading" constant="10" id="wiT-1J-BKA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="B0S-8c-Ly1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6hJ-E8-5TF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aMV-W5-Txn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="55"/>
+        </scene>
+    </scenes>
+</document>
