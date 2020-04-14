@@ -14,7 +14,28 @@
                     <view key="view" contentMode="scaleToFill" id="dcN-k4-bmP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEu-dU-d3m">
+                                <rect key="frame" x="20" y="20" width="335" height="93"/>
+                                <string key="text">It's really hard to design products by focus groups. A lot of the times, people don't know what they want until you show them.       -Steve Jobs</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HhF-Uf-9Y2">
+                                <rect key="frame" x="20" y="123" width="335" height="524"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HhF-Uf-9Y2" firstAttribute="leading" secondItem="1qk-2Q-GtJ" secondAttribute="leading" constant="20" id="1dQ-x9-lsk"/>
+                            <constraint firstItem="1qk-2Q-GtJ" firstAttribute="bottom" secondItem="HhF-Uf-9Y2" secondAttribute="bottom" constant="20" id="1lt-SN-Uiy"/>
+                            <constraint firstItem="fEu-dU-d3m" firstAttribute="leading" secondItem="1qk-2Q-GtJ" secondAttribute="leading" constant="20" id="3Yg-am-m9c"/>
+                            <constraint firstItem="1qk-2Q-GtJ" firstAttribute="trailing" secondItem="HhF-Uf-9Y2" secondAttribute="trailing" constant="20" id="Iz6-dX-t0h"/>
+                            <constraint firstItem="1qk-2Q-GtJ" firstAttribute="trailing" secondItem="fEu-dU-d3m" secondAttribute="trailing" constant="20" id="jfq-CL-BhA"/>
+                            <constraint firstItem="HhF-Uf-9Y2" firstAttribute="top" secondItem="fEu-dU-d3m" secondAttribute="bottom" constant="10" id="qxp-RZ-GeW"/>
+                            <constraint firstItem="fEu-dU-d3m" firstAttribute="top" secondItem="1qk-2Q-GtJ" secondAttribute="top" constant="20" id="wbh-Z7-0L9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1qk-2Q-GtJ"/>
                     </view>
                 </viewController>
