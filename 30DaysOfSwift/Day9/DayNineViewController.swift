@@ -43,9 +43,14 @@ extension DayNineViewController: UINavigationControllerDelegate, UIImagePickerCo
         }
         
         self.imageView.image = pickedImage
+        dismissVC()
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismissVC()
+    }
+    
+    func dismissVC(){
         dismiss(animated: true, completion: nil)
     }
 }
