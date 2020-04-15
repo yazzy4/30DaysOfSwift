@@ -27,6 +27,8 @@
 		91D4920A244628810063BA46 /* Day7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D49209244628810063BA46 /* Day7.storyboard */; };
 		91D4920D2446318A0063BA46 /* DayEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4920C2446318A0063BA46 /* DayEightViewController.swift */; };
 		91D4920F244631940063BA46 /* Day8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D4920E244631940063BA46 /* Day8.storyboard */; };
+		91E06254244771C300836999 /* DayTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E06253244771C300836999 /* DayTenViewController.swift */; };
+		91E06256244771CF00836999 /* Day10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E06255244771CF00836999 /* Day10.storyboard */; };
 		91FD58E0242A85FB0029525F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD58DF242A85FB0029525F /* AppDelegate.swift */; };
 		91FD58E2242A85FB0029525F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD58E1242A85FB0029525F /* SceneDelegate.swift */; };
 		91FD58E4242A85FB0029525F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD58E3242A85FB0029525F /* ViewController.swift */; };
@@ -57,6 +59,8 @@
 		91D49209244628810063BA46 /* Day7.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day7.storyboard; sourceTree = "<group>"; };
 		91D4920C2446318A0063BA46 /* DayEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEightViewController.swift; sourceTree = "<group>"; };
 		91D4920E244631940063BA46 /* Day8.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day8.storyboard; sourceTree = "<group>"; };
+		91E06253244771C300836999 /* DayTenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTenViewController.swift; sourceTree = "<group>"; };
+		91E06255244771CF00836999 /* Day10.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day10.storyboard; sourceTree = "<group>"; };
 		91FD58DC242A85FB0029525F /* 30DaysOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30DaysOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FD58DF242A85FB0029525F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91FD58E1242A85FB0029525F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +155,15 @@
 			path = Day8;
 			sourceTree = "<group>";
 		};
+		91E06252244771B000836999 /* Day10 */ = {
+			isa = PBXGroup;
+			children = (
+				91E06253244771C300836999 /* DayTenViewController.swift */,
+				91E06255244771CF00836999 /* Day10.storyboard */,
+			);
+			path = Day10;
+			sourceTree = "<group>";
+		};
 		91FD58D3242A85FB0029525F = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +183,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				91E06252244771B000836999 /* Day10 */,
 				9162478A24464E56004181C6 /* Day9 */,
 				91D4920B244631760063BA46 /* Day8 */,
 				91D49206244628520063BA46 /* Day7 */,
@@ -270,6 +284,7 @@
 			files = (
 				91FD58EC242A85FE0029525F /* LaunchScreen.storyboard in Resources */,
 				91281A2C2444FF0100225690 /* Day5.storyboard in Resources */,
+				91E06256244771CF00836999 /* Day10.storyboard in Resources */,
 				91281A312445031F00225690 /* Day6.storyboard in Resources */,
 				91D4920F244631940063BA46 /* Day8.storyboard in Resources */,
 				91D4920A244628810063BA46 /* Day7.storyboard in Resources */,
@@ -299,6 +314,7 @@
 				91D492082446286E0063BA46 /* DaySevenViewController.swift in Sources */,
 				9162478C24464E68004181C6 /* DayNineViewController.swift in Sources */,
 				91FD58E4242A85FB0029525F /* ViewController.swift in Sources */,
+				91E06254244771C300836999 /* DayTenViewController.swift in Sources */,
 				914D38D9242BE6E000F47E33 /* NavModel.swift in Sources */,
 				914D38E2242BE81B00F47E33 /* DayTwoViewController.swift in Sources */,
 				91FD58E0242A85FB0029525F /* AppDelegate.swift in Sources */,
