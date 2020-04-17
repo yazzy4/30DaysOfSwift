@@ -31,6 +31,20 @@ class DayElevenViewController: UIViewController, UITableViewDataSource, UITableV
             tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
         }
     }
+    
+    //editing
+    override func setEditing(_ editing: Bool, animated: Bool) {
+        super.setEditing(editing, animated: animated)
+        self.tableView.setEditing(editing, animated: animated)
+    }
+    
+    //moving cells
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let rowToMove = data[sourceIndexPath.row]
+        data.remove(at: sourceIndexPath.row)
+        data.insert(rowToMove, at: destinationIndexPath.row)
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         data.count
     }
