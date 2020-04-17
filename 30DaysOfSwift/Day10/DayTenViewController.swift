@@ -25,6 +25,7 @@ class DayTenViewController: UIViewController {
         self.refreshControl.addTarget(self, action: #selector(didRefreshView(_:)), for: UIControl.Event.valueChanged)
         refreshControl.tintColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
         refreshControl.attributedTitle = NSAttributedString(string: "Fetching new data...")
+        title = "Refresh Control"
     }
     
     //fetches hard coded data for refresh control
