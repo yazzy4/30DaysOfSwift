@@ -30,9 +30,19 @@ class DayTwelveViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == DayTwelveAddViewController.identifier {
             let vc = segue.destination as! DayTwelveAddViewController
+            vc.delegate = self
         }
     }
 
+}
+
+extension DayTwelveViewController: DayTwelveAddViewControllerDelegate{
+    func didAddNewItem(controller: DayTwelveAddViewController, item: String) {
+        self.data.append(item)
+        self.tableView.reloadData()
+    }
+    
+    
 }
 
 extension DayTwelveViewController: UITableViewDataSource, UITableViewDelegate {
