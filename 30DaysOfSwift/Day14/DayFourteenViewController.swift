@@ -31,8 +31,18 @@ class DayFourteenViewController: UIViewController {
         let cameraButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.camera, target: nil, action: nil)
         cameraButton.tintColor = #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)
         
-        keyboardToolBar.items = [cameraButton]
+        //create fixed space between toolbar item
+        let fixedSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.fixedSpace, target: nil, action: nil)
+        fixedSpace.width = 20
+        
+        //trash button
+        let trashButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.trash, target: nil, action: nil)
+        trashButton.tintColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
+        
+        keyboardToolBar.items = [cameraButton, fixedSpace, trashButton]
         textView.inputAccessoryView = keyboardToolBar
+        
+        
     }
     
     
