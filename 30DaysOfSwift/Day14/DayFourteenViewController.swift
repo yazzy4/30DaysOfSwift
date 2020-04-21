@@ -21,6 +21,18 @@ class DayFourteenViewController: UIViewController {
         
         //right nav bar item
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.done, target: nil, action: nil)
+        
+        let keyboardToolBar = UIToolbar()
+        keyboardToolBar.sizeToFit()
+        keyboardToolBar.setBackgroundImage(UIImage(), forToolbarPosition: UIBarPosition.any, barMetrics: UIBarMetrics.default)
+        keyboardToolBar.setShadowImage(UIImage(), forToolbarPosition: UIBarPosition.any)
+        
+        //camera button
+        let cameraButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.camera, target: nil, action: nil)
+        cameraButton.tintColor = #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)
+        
+        keyboardToolBar.items = [cameraButton]
+        textView.inputAccessoryView = keyboardToolBar
     }
     
     
