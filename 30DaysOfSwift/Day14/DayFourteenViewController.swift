@@ -39,9 +39,17 @@ class DayFourteenViewController: UIViewController {
         let trashButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.trash, target: nil, action: nil)
         trashButton.tintColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
         
-        keyboardToolBar.items = [cameraButton, fixedSpace, trashButton]
+        //flexible space
+        let flexSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+        
+        //bookmark button
+        let bookmarkButton = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: nil, action: nil)
+        bookmarkButton.tintColor = #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)
+        
+        keyboardToolBar.items = [cameraButton, fixedSpace, trashButton, flexSpace, bookmarkButton]
         textView.inputAccessoryView = keyboardToolBar
         
+       
         
     }
     
