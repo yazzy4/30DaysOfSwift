@@ -10,6 +10,8 @@
 		910DEE8F244E1474006D4FF5 /* DayTwelveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE8E244E1474006D4FF5 /* DayTwelveViewController.swift */; };
 		910DEE91244E1482006D4FF5 /* Day12.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910DEE90244E1482006D4FF5 /* Day12.storyboard */; };
 		910DEE93244E14A1006D4FF5 /* DayTwelveAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE92244E14A1006D4FF5 /* DayTwelveAddViewController.swift */; };
+		910DEE96244F5519006D4FF5 /* DayThirteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE95244F5519006D4FF5 /* DayThirteenViewController.swift */; };
+		910DEE98244F5523006D4FF5 /* Day13.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910DEE97244F5523006D4FF5 /* Day13.storyboard */; };
 		91281A2A2444FEF600225690 /* DayFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A292444FEF600225690 /* DayFiveViewController.swift */; };
 		91281A2C2444FF0100225690 /* Day5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91281A2B2444FF0100225690 /* Day5.storyboard */; };
 		91281A2F2445030E00225690 /* DaySixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A2E2445030E00225690 /* DaySixViewController.swift */; };
@@ -47,6 +49,8 @@
 		910DEE8E244E1474006D4FF5 /* DayTwelveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwelveViewController.swift; sourceTree = "<group>"; };
 		910DEE90244E1482006D4FF5 /* Day12.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day12.storyboard; sourceTree = "<group>"; };
 		910DEE92244E14A1006D4FF5 /* DayTwelveAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwelveAddViewController.swift; sourceTree = "<group>"; };
+		910DEE95244F5519006D4FF5 /* DayThirteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayThirteenViewController.swift; sourceTree = "<group>"; };
+		910DEE97244F5523006D4FF5 /* Day13.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day13.storyboard; sourceTree = "<group>"; };
 		91281A292444FEF600225690 /* DayFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFiveViewController.swift; sourceTree = "<group>"; };
 		91281A2B2444FF0100225690 /* Day5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day5.storyboard; sourceTree = "<group>"; };
 		91281A2E2445030E00225690 /* DaySixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySixViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,15 @@
 				910DEE90244E1482006D4FF5 /* Day12.storyboard */,
 			);
 			path = Day12;
+			sourceTree = "<group>";
+		};
+		910DEE94244F54F8006D4FF5 /* Day13 */ = {
+			isa = PBXGroup;
+			children = (
+				910DEE95244F5519006D4FF5 /* DayThirteenViewController.swift */,
+				910DEE97244F5523006D4FF5 /* Day13.storyboard */,
+			);
+			path = Day13;
 			sourceTree = "<group>";
 		};
 		91281A282444FEBE00225690 /* Day5 */ = {
@@ -212,6 +225,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				910DEE94244F54F8006D4FF5 /* Day13 */,
 				910DEE8D244E1454006D4FF5 /* Day12 */,
 				91E06257244795AD00836999 /* Day11 */,
 				91E06252244771B000836999 /* Day10 */,
@@ -322,6 +336,7 @@
 				9162478E24464E75004181C6 /* Day9.storyboard in Resources */,
 				914F5629243F8F230049FE41 /* Day3.storyboard in Resources */,
 				914F562E244109730049FE41 /* Day4.storyboard in Resources */,
+				910DEE98244F5523006D4FF5 /* Day13.storyboard in Resources */,
 				91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */,
 				910DEE91244E1482006D4FF5 /* Day12.storyboard in Resources */,
 				914D38E0242BE7EE00F47E33 /* Day2.storyboard in Resources */,
@@ -356,6 +371,7 @@
 				91FD58E0242A85FB0029525F /* AppDelegate.swift in Sources */,
 				91FD58E2242A85FB0029525F /* SceneDelegate.swift in Sources */,
 				91281A2F2445030E00225690 /* DaySixViewController.swift in Sources */,
+				910DEE96244F5519006D4FF5 /* DayThirteenViewController.swift in Sources */,
 				914D38DB242BE74C00F47E33 /* ContentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
