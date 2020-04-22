@@ -43,6 +43,11 @@ extension DayFifteenViewController: UITableViewDataSource, UITableViewDelegate {
         cell.addressLabel.text = obj.address!
         //generates about 27 random numbers and assigns to image and cells
         cell.img.image = UIImage(named: "image \(arc4random_uniform(27))")
+        cell.img.layer.borderColor = #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)
+        cell.img.layer.borderWidth = 4
+        cell.img.layer.cornerRadius = 30
+        cell.img.layer.masksToBounds = true
+        
         return cell
     }
     
