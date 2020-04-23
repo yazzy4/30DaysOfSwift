@@ -12,7 +12,7 @@ class DayTenViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var data = ["Milk", "Apples", "Chicken", "Salt", "Eggs"]
+    var data = ["Milk", "Apples", "Chicken", "Salt", "Eggs", "Beef"]
     
     //Create refresh control
     private let refreshControl = UIRefreshControl()
