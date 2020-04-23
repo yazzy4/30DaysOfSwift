@@ -18,7 +18,7 @@ class DayFifteenViewController: UIViewController {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-        
+        self.title = "My Contacts"
         data = Day15DataModel.parseData()
     }
 
