@@ -29,10 +29,15 @@ class DaySixteenViewController: UIViewController {
         for car in cars {
             //extracts the first letter out of an array
             let currentCarKey = String(car.prefix(1))
-            if var carEntries = carModel[currentCarKey]{
-                carEntries.append(car)
+            if var values = carModel[currentCarKey]{
+                values.append(car)
+                carModel[currentCarKey] = values
+            } else {
+                carModel[currentCarKey] = [car]
             }
         }
+        sectionTitle = [String](carModel.keys)
+        sectionTitle = sectionTitle.sorted(by: {$0 < $1})
     }
 
 }
@@ -57,5 +62,13 @@ extension DaySixteenViewController: UITableViewDataSource, UITableViewDelegate {
             cell?.textLabel?.text = value[indexPath.row]
         }
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return sectionTitle[section]
+    }
+    
+    func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+        return sectionTitle
     }
 }
