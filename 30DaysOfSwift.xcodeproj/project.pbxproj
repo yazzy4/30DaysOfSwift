@@ -20,6 +20,9 @@
 		910DEEA62450C8EB006D4FF5 /* Day15Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 910DEEA52450C8EB006D4FF5 /* Day15Data.json */; };
 		910DEEA92451202A006D4FF5 /* DaySixteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEEA82451202A006D4FF5 /* DaySixteenViewController.swift */; };
 		910DEEAB24512037006D4FF5 /* Day16.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910DEEAA24512037006D4FF5 /* Day16.storyboard */; };
+		9110BCD5245217FE00CA895D /* DaySeventeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110BCD4245217FE00CA895D /* DaySeventeenViewController.swift */; };
+		9110BCD72452180D00CA895D /* Day17Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110BCD62452180D00CA895D /* Day17Model.swift */; };
+		9110BCD92452181A00CA895D /* Day17.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9110BCD82452181A00CA895D /* Day17.storyboard */; };
 		91281A2A2444FEF600225690 /* DayFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A292444FEF600225690 /* DayFiveViewController.swift */; };
 		91281A2C2444FF0100225690 /* Day5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91281A2B2444FF0100225690 /* Day5.storyboard */; };
 		91281A2F2445030E00225690 /* DaySixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A2E2445030E00225690 /* DaySixViewController.swift */; };
@@ -67,6 +70,9 @@
 		910DEEA52450C8EB006D4FF5 /* Day15Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Day15Data.json; sourceTree = "<group>"; };
 		910DEEA82451202A006D4FF5 /* DaySixteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySixteenViewController.swift; sourceTree = "<group>"; };
 		910DEEAA24512037006D4FF5 /* Day16.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day16.storyboard; sourceTree = "<group>"; };
+		9110BCD4245217FE00CA895D /* DaySeventeenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySeventeenViewController.swift; sourceTree = "<group>"; };
+		9110BCD62452180D00CA895D /* Day17Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day17Model.swift; sourceTree = "<group>"; };
+		9110BCD82452181A00CA895D /* Day17.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day17.storyboard; sourceTree = "<group>"; };
 		91281A292444FEF600225690 /* DayFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFiveViewController.swift; sourceTree = "<group>"; };
 		91281A2B2444FF0100225690 /* Day5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day5.storyboard; sourceTree = "<group>"; };
 		91281A2E2445030E00225690 /* DaySixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySixViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +165,16 @@
 				910DEEAA24512037006D4FF5 /* Day16.storyboard */,
 			);
 			path = Day16;
+			sourceTree = "<group>";
+		};
+		9110BCD3245217EA00CA895D /* Day17 */ = {
+			isa = PBXGroup;
+			children = (
+				9110BCD4245217FE00CA895D /* DaySeventeenViewController.swift */,
+				9110BCD62452180D00CA895D /* Day17Model.swift */,
+				9110BCD82452181A00CA895D /* Day17.storyboard */,
+			);
+			path = Day17;
 			sourceTree = "<group>";
 		};
 		91281A282444FEBE00225690 /* Day5 */ = {
@@ -270,6 +286,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9110BCD3245217EA00CA895D /* Day17 */,
 				910DEEA724512017006D4FF5 /* Day16 */,
 				910DEE9E244F75CF006D4FF5 /* Day15 */,
 				910DEE99244F5A52006D4FF5 /* Day14 */,
@@ -387,6 +404,7 @@
 				914F562E244109730049FE41 /* Day4.storyboard in Resources */,
 				910DEEA62450C8EB006D4FF5 /* Day15Data.json in Resources */,
 				910DEE98244F5523006D4FF5 /* Day13.storyboard in Resources */,
+				9110BCD92452181A00CA895D /* Day17.storyboard in Resources */,
 				91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */,
 				910DEEA2244F75F5006D4FF5 /* Day15.storyboard in Resources */,
 				910DEE91244E1482006D4FF5 /* Day12.storyboard in Resources */,
@@ -411,6 +429,7 @@
 				91FD58F6242A965A0029525F /* DayOneViewController.swift in Sources */,
 				91D4920D2446318A0063BA46 /* DayEightViewController.swift in Sources */,
 				910DEE93244E14A1006D4FF5 /* DayTwelveAddViewController.swift in Sources */,
+				9110BCD72452180D00CA895D /* Day17Model.swift in Sources */,
 				910DEE9B244F5A76006D4FF5 /* DayFourteenViewController.swift in Sources */,
 				914F5627243F8F0C0049FE41 /* DayThreeViewController.swift in Sources */,
 				914F562C244109620049FE41 /* DayFourViewController.swift in Sources */,
@@ -428,6 +447,7 @@
 				91281A2F2445030E00225690 /* DaySixViewController.swift in Sources */,
 				910DEE96244F5519006D4FF5 /* DayThirteenViewController.swift in Sources */,
 				910DEEA92451202A006D4FF5 /* DaySixteenViewController.swift in Sources */,
+				9110BCD5245217FE00CA895D /* DaySeventeenViewController.swift in Sources */,
 				914D38DB242BE74C00F47E33 /* ContentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
