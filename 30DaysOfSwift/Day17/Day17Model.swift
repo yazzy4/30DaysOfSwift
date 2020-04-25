@@ -26,7 +26,7 @@ class Day17Model {
     var movieCast: String?
     
     static func populateMovies() -> [MovieGenre]{
-        let result = [MovieGenre]()
+        var result = [MovieGenre]()
         var actionMovies = [Day17Model]()
         var comedyMovies = [Day17Model]()
         var dramaMovies = [Day17Model]()
@@ -54,6 +54,11 @@ class Day17Model {
             }
         
         }
+        
+        result.append(MovieGenre(name: "Action", movies: actionMovies))
+        result.append(MovieGenre(name: "Comedy", movies: comedyMovies))
+        result.append(MovieGenre(name: "Drama", movies: dramaMovies))
+        
         return result
     }
     
