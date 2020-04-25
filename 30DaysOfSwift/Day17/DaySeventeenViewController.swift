@@ -18,6 +18,7 @@ class DaySeventeenViewController: UIViewController {
         super.viewDidLoad()
         self.tableView.dataSource = self
         self.tableView.delegate = self
+        self.title = "Movies & Genres"
     }
     
 
