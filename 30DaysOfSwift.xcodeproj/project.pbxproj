@@ -25,6 +25,8 @@
 		9110BCD92452181A00CA895D /* Day17.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9110BCD82452181A00CA895D /* Day17.storyboard */; };
 		911D40262454B55E00D73212 /* DayEightteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D40252454B55E00D73212 /* DayEightteenViewController.swift */; };
 		911D40282454B56D00D73212 /* Day18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911D40272454B56D00D73212 /* Day18.storyboard */; };
+		911D402B24578D5600D73212 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911D402A24578D5600D73212 /* WebKit.framework */; };
+		911D402D24578D5F00D73212 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911D402C24578D5F00D73212 /* MapKit.framework */; };
 		91281A2A2444FEF600225690 /* DayFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A292444FEF600225690 /* DayFiveViewController.swift */; };
 		91281A2C2444FF0100225690 /* Day5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91281A2B2444FF0100225690 /* Day5.storyboard */; };
 		91281A2F2445030E00225690 /* DaySixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A2E2445030E00225690 /* DaySixViewController.swift */; };
@@ -77,6 +79,8 @@
 		9110BCD82452181A00CA895D /* Day17.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day17.storyboard; sourceTree = "<group>"; };
 		911D40252454B55E00D73212 /* DayEightteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEightteenViewController.swift; sourceTree = "<group>"; };
 		911D40272454B56D00D73212 /* Day18.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day18.storyboard; sourceTree = "<group>"; };
+		911D402A24578D5600D73212 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		911D402C24578D5F00D73212 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		91281A292444FEF600225690 /* DayFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFiveViewController.swift; sourceTree = "<group>"; };
 		91281A2B2444FF0100225690 /* Day5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day5.storyboard; sourceTree = "<group>"; };
 		91281A2E2445030E00225690 /* DaySixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySixViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911D402D24578D5F00D73212 /* MapKit.framework in Frameworks */,
+				911D402B24578D5600D73212 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +194,15 @@
 				911D40272454B56D00D73212 /* Day18.storyboard */,
 			);
 			path = Day18;
+			sourceTree = "<group>";
+		};
+		911D402924578D5600D73212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911D402C24578D5F00D73212 /* MapKit.framework */,
+				911D402A24578D5600D73212 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		91281A282444FEBE00225690 /* Day5 */ = {
@@ -285,6 +300,7 @@
 			children = (
 				91FD58DE242A85FB0029525F /* 30DaysOfSwift */,
 				91FD58DD242A85FB0029525F /* Products */,
+				911D402924578D5600D73212 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

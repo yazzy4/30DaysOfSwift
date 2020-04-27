@@ -6,12 +6,13 @@
 //  Copyright © 2020 Yaz Burrell. All rights reserved.
 //
 
-import UIKit
 import WebKit
+import UIKit
+
 
 class DayEightteenViewController: UIViewController {
 
-    @IBOutlet weak var addressBar: UITextField!
+    @IBOutlet weak var addressbar: UITextField!
     @IBOutlet weak var webView: WKWebView!
     
     override func viewDidLoad() {
@@ -21,12 +22,12 @@ class DayEightteenViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        addressBar.becomeFirstResponder()
+        addressbar.becomeFirstResponder()
     }
     
     @IBAction func didTapGo(_ sender: UIButton){
         self.view.endEditing(true)
-        guard let url = URL(string: addressBar.text!) else {
+        guard let url = URL(string: addressbar.text!) else {
             return
         }
         webView.load(URLRequest(url: url))
@@ -35,8 +36,9 @@ class DayEightteenViewController: UIViewController {
 }
 
 extension DayEightteenViewController : WKNavigationDelegate {
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        UIApplication.shared.isNetworkActivityIndicatorVisible = false
-        addressBar.text = webView.url?.absoluteString
+        func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+            UIApplication.shared.isNetworkActivityIndicatorVisible = false
+            addressbar.text = webView.url?.absoluteString
+        }
     }
-}
+
