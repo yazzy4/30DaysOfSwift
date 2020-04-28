@@ -13,28 +13,36 @@ class DayTwentyViewController: UIViewController {
     @IBOutlet weak var containerView: UIView!
     
     private let backImageView: UIImageView = UIImageView(image: #imageLiteral(resourceName: "image14"))
-    private let frontImageView: UIImageView = UIImageView(image: #imageLiteral(resourceName: "ios12"))
+    private let frontImageView: UIImageView = UIImageView(image: #imageLiteral(resourceName: "image6"))
     
     private var showingBack = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        frontImageView.contentMode = .scaleAspectFit
-        backImageView.contentMode = .scaleAspectFit
+        frontImageView.contentMode = .scaleAspectFill
+        backImageView.contentMode = .scaleAspectFill
+        
+        frontImageView.clipsToBounds = true
+        backImageView.clipsToBounds = true
         
         containerView.addSubview(frontImageView)
         containerView.addSubview(backImageView)
         
         frontImageView.translatesAutoresizingMaskIntoConstraints = false
         backImageView.translatesAutoresizingMaskIntoConstraints = false
+        
         backImageView.isHidden = true
         
         NSLayoutConstraint.activate([
             frontImageView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
             frontImageView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
             frontImageView.topAnchor.constraint(equalTo: containerView.topAnchor),
-            frontImageView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor)
+            frontImageView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor),
+            backImageView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+            backImageView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+            backImageView.topAnchor.constraint(equalTo: containerView.topAnchor),
+            backImageView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor)
         ])
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(flipCard))
@@ -42,7 +50,7 @@ class DayTwentyViewController: UIViewController {
         containerView.backgroundColor = .clear
         containerView.layer.shadowOffset = .zero
         containerView.layer.shadowColor = UIColor.yellow.cgColor
-        containerView.layer.shadowRadius = 5
+        containerView.layer.shadowRadius = 1
         containerView.layer.shadowOpacity = 1
         containerView.layer.shadowPath = UIBezierPath(rect: containerView.bounds).cgPath
         
