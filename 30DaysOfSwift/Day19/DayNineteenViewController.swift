@@ -39,7 +39,7 @@ class DayNineteenViewController: UIViewController {
                         self.view.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
                     }
                 if let error = evaluationError as? NSError {
-                        print()
+                    print(self.laErrorMessage(errorCode: error.code))
                     }
                 }
                
@@ -50,6 +50,31 @@ class DayNineteenViewController: UIViewController {
     }
     
     func laErrorMessage(errorCode: Int) -> String{
+        var message = ""
         
+        switch errorCode {
+        case LAError.appCancel.rawValue:
+            message = "Auth was cancelled by application"
+        case LAError.authenticationFailed.rawValue:
+            message = "User failed to provide valid credentials"
+        case LAError.invalidContext.rawValue:
+            message = "Invalid context"
+        case LAError.passcodeNotSet.rawValue:
+            message = "Passcode is not set on device"
+        case LAError.systemCancel.rawValue:
+            message = "Auth was cancelled due to system event"
+        case LAError.touchIDLockout.rawValue:
+            message = "Too many failed attempts"
+        case LAError.touchIDNotEnrolled.rawValue:
+            message = "Touch ID not available on device"
+        case LAError.userCancel.rawValue:
+            message = "User cancelled"
+        case LAError.userFallback.rawValue:
+            message = "User selected fallback"
+            
+        default:
+            message = "No valid choice"
+        }
+        return message
     }
 }
