@@ -49,8 +49,8 @@ class DayTwentyViewController: UIViewController {
         containerView.addGestureRecognizer(tapGesture)
         containerView.backgroundColor = .clear
         containerView.layer.shadowOffset = .zero
-        containerView.layer.shadowColor = UIColor.yellow.cgColor
-        containerView.layer.shadowRadius = 1
+        containerView.layer.shadowColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+        containerView.layer.shadowRadius = 5
         containerView.layer.shadowOpacity = 1
         containerView.layer.shadowPath = UIBezierPath(rect: containerView.bounds).cgPath
         
