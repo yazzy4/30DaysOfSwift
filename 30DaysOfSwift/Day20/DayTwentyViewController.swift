@@ -61,7 +61,7 @@ class DayTwentyViewController: UIViewController {
         }, completion: nil)
         
         UIView.transition(with: containerView, duration: 1.0, options: tranistionOptions, animations: {
-            self.backImageView.isHidden = self.showingBack
+            self.backImageView.isHidden = !self.showingBack
         }, completion: nil)
         
     }
