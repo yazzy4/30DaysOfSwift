@@ -38,6 +38,8 @@
 		91281A2C2444FF0100225690 /* Day5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91281A2B2444FF0100225690 /* Day5.storyboard */; };
 		91281A2F2445030E00225690 /* DaySixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A2E2445030E00225690 /* DaySixViewController.swift */; };
 		91281A312445031F00225690 /* Day6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91281A302445031F00225690 /* Day6.storyboard */; };
+		913D0C102459E621009975E4 /* DayTwentyTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913D0C0F2459E621009975E4 /* DayTwentyTwoViewController.swift */; };
+		913D0C122459E62D009975E4 /* Day22.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913D0C112459E62D009975E4 /* Day22.storyboard */; };
 		914D38D7242BE58300F47E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D38D6242BE58300F47E33 /* Main.storyboard */; };
 		914D38D9242BE6E000F47E33 /* NavModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D38D8242BE6E000F47E33 /* NavModel.swift */; };
 		914D38DB242BE74C00F47E33 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D38DA242BE74C00F47E33 /* ContentTableViewCell.swift */; };
@@ -99,6 +101,8 @@
 		91281A2B2444FF0100225690 /* Day5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day5.storyboard; sourceTree = "<group>"; };
 		91281A2E2445030E00225690 /* DaySixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySixViewController.swift; sourceTree = "<group>"; };
 		91281A302445031F00225690 /* Day6.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day6.storyboard; sourceTree = "<group>"; };
+		913D0C0F2459E621009975E4 /* DayTwentyTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwentyTwoViewController.swift; sourceTree = "<group>"; };
+		913D0C112459E62D009975E4 /* Day22.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day22.storyboard; sourceTree = "<group>"; };
 		914D38D6242BE58300F47E33 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		914D38D8242BE6E000F47E33 /* NavModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavModel.swift; sourceTree = "<group>"; };
 		914D38DA242BE74C00F47E33 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
@@ -265,6 +269,15 @@
 			path = Day6;
 			sourceTree = "<group>";
 		};
+		913D0C0E2459E5F1009975E4 /* Day22 */ = {
+			isa = PBXGroup;
+			children = (
+				913D0C0F2459E621009975E4 /* DayTwentyTwoViewController.swift */,
+				913D0C112459E62D009975E4 /* Day22.storyboard */,
+			);
+			path = Day22;
+			sourceTree = "<group>";
+		};
 		914D38DE242BE79C00F47E33 /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +370,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				913D0C0E2459E5F1009975E4 /* Day22 */,
 				911D40382458A09E00D73212 /* Day21 */,
 				911D4033245893C900D73212 /* Day20 */,
 				911D402E2457916E00D73212 /* Day19 */,
@@ -476,6 +490,7 @@
 				91D4920F244631940063BA46 /* Day8.storyboard in Resources */,
 				91D4920A244628810063BA46 /* Day7.storyboard in Resources */,
 				911D4037245893E700D73212 /* Day20.storyboard in Resources */,
+				913D0C122459E62D009975E4 /* Day22.storyboard in Resources */,
 				911D40282454B56D00D73212 /* Day18.storyboard in Resources */,
 				9162478E24464E75004181C6 /* Day9.storyboard in Resources */,
 				914F5629243F8F230049FE41 /* Day3.storyboard in Resources */,
@@ -528,6 +543,7 @@
 				91FD58E2242A85FB0029525F /* SceneDelegate.swift in Sources */,
 				91281A2F2445030E00225690 /* DaySixViewController.swift in Sources */,
 				910DEE96244F5519006D4FF5 /* DayThirteenViewController.swift in Sources */,
+				913D0C102459E621009975E4 /* DayTwentyTwoViewController.swift in Sources */,
 				910DEEA92451202A006D4FF5 /* DaySixteenViewController.swift in Sources */,
 				911D40302457918500D73212 /* DayNineteenViewController.swift in Sources */,
 				9110BCD5245217FE00CA895D /* DaySeventeenViewController.swift in Sources */,
