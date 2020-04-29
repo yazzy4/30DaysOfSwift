@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,31 +18,31 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pXH-6p-Udp">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="B2j-dh-FVi">
-                                    <size key="itemSize" width="128" height="128"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" sectionInsetReference="safeArea" id="B2j-dh-FVi">
+                                    <size key="itemSize" width="114" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="QDw-3a-g7E" customClass="Day21Cell" customModule="_0DaysOfSwift" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="114" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3qk-Js-JMd">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="114" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image14" translatesAutoresizingMaskIntoConstraints="NO" id="w5H-9K-qMh">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="114" height="128"/>
                                                 </imageView>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstItem="w5H-9K-qMh" firstAttribute="leading" secondItem="3qk-Js-JMd" secondAttribute="leading" id="Ipm-bN-1nd"/>
-                                                <constraint firstItem="w5H-9K-qMh" firstAttribute="top" secondItem="3qk-Js-JMd" secondAttribute="top" id="bgv-ET-p8x"/>
-                                                <constraint firstAttribute="trailing" secondItem="w5H-9K-qMh" secondAttribute="trailing" id="uOo-JT-a4d"/>
-                                                <constraint firstAttribute="bottom" secondItem="w5H-9K-qMh" secondAttribute="bottom" id="yAx-4K-hKY"/>
-                                            </constraints>
-                                        </collectionViewCellContentView>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="w5H-9K-qMh" secondAttribute="trailing" id="31h-sk-YWo"/>
+                                            <constraint firstItem="w5H-9K-qMh" firstAttribute="top" secondItem="QDw-3a-g7E" secondAttribute="top" id="4iD-ct-ANg"/>
+                                            <constraint firstItem="w5H-9K-qMh" firstAttribute="leading" secondItem="QDw-3a-g7E" secondAttribute="leading" id="DXf-bq-GHh"/>
+                                            <constraint firstAttribute="bottom" secondItem="w5H-9K-qMh" secondAttribute="bottom" id="xww-ta-Ugi"/>
+                                        </constraints>
                                         <connections>
                                             <outlet property="imageV" destination="w5H-9K-qMh" id="Xeo-Ni-4mC"/>
                                         </connections>
@@ -66,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1q2-tG-ihD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2" y="64"/>
+            <point key="canvasLocation" x="0.80000000000000004" y="63.418290854572717"/>
         </scene>
     </scenes>
     <resources>
