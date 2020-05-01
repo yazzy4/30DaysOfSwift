@@ -9,11 +9,11 @@
 import UIKit
 import UserNotifications
 
-class DayTwentyTwoViewController: UIViewController, UNUserNotificationCenterDelegate {
+class DayTwentyTwoViewController: UIViewController  {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+     
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -32,6 +32,7 @@ class DayTwentyTwoViewController: UIViewController, UNUserNotificationCenterDele
         content.subtitle = "30 Days of iOS 12"
         content.body = "Learn iOS 12 in 30 Days"
         content.sound = UNNotificationSound.default
+        
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 2.0, repeats: false)
         let request = UNNotificationRequest(identifier: "ContentIdentifier", content: content, trigger: trigger)
         
@@ -40,9 +41,25 @@ class DayTwentyTwoViewController: UIViewController, UNUserNotificationCenterDele
                 print(error!.localizedDescription)
                 
             }
+        
         }
    
         
     }
 
+}
+
+extension DayTwentyTwoViewController: UNUserNotificationCenterDelegate {
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+        completionHandler([UNNotificationPresentationOptions.alert, .badge, .sound])
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        print(response.actionIdentifier.description)
+        completionHandler()
+    }
+    
+    
 }
