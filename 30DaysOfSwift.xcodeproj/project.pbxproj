@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9102175E245CA9A3009DF61C /* ios12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9102175D245CA9A3009DF61C /* ios12.jpg */; };
+		91021761245CAEF9009DF61C /* DayTwentyThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021760245CAEF9009DF61C /* DayTwentyThreeViewController.swift */; };
+		91021763245CAF03009DF61C /* Day23.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91021762245CAF03009DF61C /* Day23.storyboard */; };
 		910DEE8F244E1474006D4FF5 /* DayTwelveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE8E244E1474006D4FF5 /* DayTwelveViewController.swift */; };
 		910DEE91244E1482006D4FF5 /* Day12.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910DEE90244E1482006D4FF5 /* Day12.storyboard */; };
 		910DEE93244E14A1006D4FF5 /* DayTwelveAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE92244E14A1006D4FF5 /* DayTwelveAddViewController.swift */; };
@@ -72,6 +74,8 @@
 
 /* Begin PBXFileReference section */
 		9102175D245CA9A3009DF61C /* ios12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ios12.jpg; path = "../../../../Xcode Projects/30DaysOfiOS12 2/30DaysOfiOS12/Assets.xcassets/ios12.imageset/ios12.jpg"; sourceTree = "<group>"; };
+		91021760245CAEF9009DF61C /* DayTwentyThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwentyThreeViewController.swift; sourceTree = "<group>"; };
+		91021762245CAF03009DF61C /* Day23.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day23.storyboard; sourceTree = "<group>"; };
 		910DEE8E244E1474006D4FF5 /* DayTwelveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwelveViewController.swift; sourceTree = "<group>"; };
 		910DEE90244E1482006D4FF5 /* Day12.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day12.storyboard; sourceTree = "<group>"; };
 		910DEE92244E14A1006D4FF5 /* DayTwelveAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwelveAddViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9102175F245CAEDD009DF61C /* Day23 */ = {
+			isa = PBXGroup;
+			children = (
+				91021760245CAEF9009DF61C /* DayTwentyThreeViewController.swift */,
+				91021762245CAF03009DF61C /* Day23.storyboard */,
+			);
+			path = Day23;
+			sourceTree = "<group>";
+		};
 		910DEE8D244E1454006D4FF5 /* Day12 */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +386,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9102175F245CAEDD009DF61C /* Day23 */,
 				913D0C0E2459E5F1009975E4 /* Day22 */,
 				911D40382458A09E00D73212 /* Day21 */,
 				911D4033245893C900D73212 /* Day20 */,
@@ -502,6 +516,7 @@
 				910DEEA62450C8EB006D4FF5 /* Day15Data.json in Resources */,
 				910DEE98244F5523006D4FF5 /* Day13.storyboard in Resources */,
 				9102175E245CA9A3009DF61C /* ios12.jpg in Resources */,
+				91021763245CAF03009DF61C /* Day23.storyboard in Resources */,
 				9110BCD92452181A00CA895D /* Day17.storyboard in Resources */,
 				91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */,
 				910DEEA2244F75F5006D4FF5 /* Day15.storyboard in Resources */,
@@ -542,6 +557,7 @@
 				911D403A2458A0B200D73212 /* DayTwentyOneViewController.swift in Sources */,
 				914D38E2242BE81B00F47E33 /* DayTwoViewController.swift in Sources */,
 				91FD58E0242A85FB0029525F /* AppDelegate.swift in Sources */,
+				91021761245CAEF9009DF61C /* DayTwentyThreeViewController.swift in Sources */,
 				910DEEA0244F75EA006D4FF5 /* DayFifteenViewController.swift in Sources */,
 				911D4035245893DC00D73212 /* DayTwentyViewController.swift in Sources */,
 				91FD58E2242A85FB0029525F /* SceneDelegate.swift in Sources */,

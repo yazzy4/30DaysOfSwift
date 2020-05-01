@@ -13,7 +13,7 @@ class DayTwentyTwoViewController: UIViewController  {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+     title = "Notification Handling"
     }
     
     override func viewDidAppear(_ animated: Bool) {
