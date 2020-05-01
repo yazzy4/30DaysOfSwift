@@ -33,6 +33,11 @@ class DayTwentyTwoViewController: UIViewController  {
         content.body = "Learn iOS 12 in 30 Days"
         content.sound = UNNotificationSound.default
         
+        //add image to notification
+        if let imageBanner = try? UNNotificationAttachment(identifier: "imageBanner", url: Bundle.main.url(forResource: "ios12", withExtension: "jpg")!, options: [:]) {
+               content.attachments = [imageBanner]
+           }
+        
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 2.0, repeats: false)
         let request = UNNotificationRequest(identifier: "ContentIdentifier", content: content, trigger: trigger)
         

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9102175E245CA9A3009DF61C /* ios12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9102175D245CA9A3009DF61C /* ios12.jpg */; };
 		910DEE8F244E1474006D4FF5 /* DayTwelveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE8E244E1474006D4FF5 /* DayTwelveViewController.swift */; };
 		910DEE91244E1482006D4FF5 /* Day12.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910DEE90244E1482006D4FF5 /* Day12.storyboard */; };
 		910DEE93244E14A1006D4FF5 /* DayTwelveAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE92244E14A1006D4FF5 /* DayTwelveAddViewController.swift */; };
@@ -70,6 +71,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9102175D245CA9A3009DF61C /* ios12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ios12.jpg; path = "../../../../Xcode Projects/30DaysOfiOS12 2/30DaysOfiOS12/Assets.xcassets/ios12.imageset/ios12.jpg"; sourceTree = "<group>"; };
 		910DEE8E244E1474006D4FF5 /* DayTwelveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwelveViewController.swift; sourceTree = "<group>"; };
 		910DEE90244E1482006D4FF5 /* Day12.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day12.storyboard; sourceTree = "<group>"; };
 		910DEE92244E14A1006D4FF5 /* DayTwelveAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwelveAddViewController.swift; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				913D0C0F2459E621009975E4 /* DayTwentyTwoViewController.swift */,
+				9102175D245CA9A3009DF61C /* ios12.jpg */,
 				913D0C112459E62D009975E4 /* Day22.storyboard */,
 			);
 			path = Day22;
@@ -498,6 +501,7 @@
 				914F562E244109730049FE41 /* Day4.storyboard in Resources */,
 				910DEEA62450C8EB006D4FF5 /* Day15Data.json in Resources */,
 				910DEE98244F5523006D4FF5 /* Day13.storyboard in Resources */,
+				9102175E245CA9A3009DF61C /* ios12.jpg in Resources */,
 				9110BCD92452181A00CA895D /* Day17.storyboard in Resources */,
 				91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */,
 				910DEEA2244F75F5006D4FF5 /* Day15.storyboard in Resources */,
