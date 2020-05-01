@@ -38,6 +38,12 @@ class DayTwentyTwoViewController: UIViewController  {
                content.attachments = [imageBanner]
            }
         
+        //add button
+        let dismiss = UNNotificationAction(identifier: "dismiss", title: "Dismiss", options: [])
+        let notificationCategory = UNNotificationCategory(identifier: "notificationCategory", actions: [dismiss], intentIdentifiers: [], hiddenPreviewsBodyPlaceholder: "", options: [])
+        content.categoryIdentifier = "notificationCategory"
+        center.setNotificationCategories([notificationCategory])
+        
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 2.0, repeats: false)
         let request = UNNotificationRequest(identifier: "ContentIdentifier", content: content, trigger: trigger)
         
