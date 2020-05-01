@@ -19,12 +19,27 @@ class DayTwentyThreeViewController: UIViewController {
     }
     
     @IBAction func didTapProcessImage(_ sender: UIButton){
-        self.applyFilter()
+        
+        let image = CIImage(cgImage: imageView.image!.cgImage!)
+        
+        self.applyFilter(image)
     }
     
-    func applyFilter(){
+    func applyFilter(_ image: CIImage){
         DispatchQueue.global().async {
-            sleep(10)
+            sleep(5)
+            
+            let filter = CIFilter(name: "CISepiaTone")!
+            filter.setDefaults()
+            filter.setValue(image, forKey: kCIInputImageKey)
+//            filter.setValue(0.5, forKey: kCIInputIntensityKey)
+            
+            let context = CIContext(options: nil)
+            let imageRefrence = context.createCGImage(filter.outputImage!, from: image.extent)
+            DispatchQueue.main.async {
+                self.imageView.image = UIImage(cgImage: imageRefrence!)
+            }
+            
         }
     }
 
