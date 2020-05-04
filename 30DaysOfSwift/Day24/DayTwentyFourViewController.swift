@@ -21,7 +21,7 @@ class DayTwentyFourViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
          //image loads here
-        UIImage.imageAsync(urlString: "https://image.tmdb.org/t/p/w500//dXpwPlJF0yKGdVIVwJXCY59ak8Q.jpg") { (image) in
+        UIImage.imageAsync(urlString: "https://starwars.fandom.com/wiki/Star_Wars?file=Star-wars-logo-new-tall.jpg") { (image) in
             DispatchQueue.main.async {
                 self.imageView.image = image
             }

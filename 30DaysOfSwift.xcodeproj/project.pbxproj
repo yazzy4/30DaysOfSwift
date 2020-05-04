@@ -44,6 +44,8 @@
 		91281A2C2444FF0100225690 /* Day5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91281A2B2444FF0100225690 /* Day5.storyboard */; };
 		91281A2F2445030E00225690 /* DaySixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91281A2E2445030E00225690 /* DaySixViewController.swift */; };
 		91281A312445031F00225690 /* Day6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91281A302445031F00225690 /* Day6.storyboard */; };
+		912964752460A28800BBB8B1 /* DayTwentyFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912964742460A28800BBB8B1 /* DayTwentyFiveViewController.swift */; };
+		912964772460A29200BBB8B1 /* Day25.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912964762460A29200BBB8B1 /* Day25.storyboard */; };
 		913D0C102459E621009975E4 /* DayTwentyTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913D0C0F2459E621009975E4 /* DayTwentyTwoViewController.swift */; };
 		913D0C122459E62D009975E4 /* Day22.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913D0C112459E62D009975E4 /* Day22.storyboard */; };
 		914D38D7242BE58300F47E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D38D6242BE58300F47E33 /* Main.storyboard */; };
@@ -113,6 +115,8 @@
 		91281A2B2444FF0100225690 /* Day5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day5.storyboard; sourceTree = "<group>"; };
 		91281A2E2445030E00225690 /* DaySixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySixViewController.swift; sourceTree = "<group>"; };
 		91281A302445031F00225690 /* Day6.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day6.storyboard; sourceTree = "<group>"; };
+		912964742460A28800BBB8B1 /* DayTwentyFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwentyFiveViewController.swift; sourceTree = "<group>"; };
+		912964762460A29200BBB8B1 /* Day25.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day25.storyboard; sourceTree = "<group>"; };
 		913D0C0F2459E621009975E4 /* DayTwentyTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwentyTwoViewController.swift; sourceTree = "<group>"; };
 		913D0C112459E62D009975E4 /* Day22.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day22.storyboard; sourceTree = "<group>"; };
 		914D38D6242BE58300F47E33 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -300,6 +304,15 @@
 			path = Day6;
 			sourceTree = "<group>";
 		};
+		912964732460A26600BBB8B1 /* Day25 */ = {
+			isa = PBXGroup;
+			children = (
+				912964742460A28800BBB8B1 /* DayTwentyFiveViewController.swift */,
+				912964762460A29200BBB8B1 /* Day25.storyboard */,
+			);
+			path = Day25;
+			sourceTree = "<group>";
+		};
 		913D0C0E2459E5F1009975E4 /* Day22 */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,6 +415,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				912964732460A26600BBB8B1 /* Day25 */,
 				91021764245CB756009DF61C /* Day24 */,
 				9102175F245CAEDD009DF61C /* Day23 */,
 				913D0C0E2459E5F1009975E4 /* Day22 */,
@@ -521,6 +535,7 @@
 				911D403C2458A0BF00D73212 /* Day21.storyboard in Resources */,
 				91E06256244771CF00836999 /* Day10.storyboard in Resources */,
 				91281A312445031F00225690 /* Day6.storyboard in Resources */,
+				912964772460A29200BBB8B1 /* Day25.storyboard in Resources */,
 				91D4920F244631940063BA46 /* Day8.storyboard in Resources */,
 				91D4920A244628810063BA46 /* Day7.storyboard in Resources */,
 				911D4037245893E700D73212 /* Day20.storyboard in Resources */,
@@ -556,6 +571,7 @@
 			files = (
 				91281A2A2444FEF600225690 /* DayFiveViewController.swift in Sources */,
 				91E06259244795D000836999 /* DayElevenViewController.swift in Sources */,
+				912964752460A28800BBB8B1 /* DayTwentyFiveViewController.swift in Sources */,
 				911D40262454B55E00D73212 /* DayEightteenViewController.swift in Sources */,
 				914D38DD242BE77100F47E33 /* UIColor+Extension.swift in Sources */,
 				91FD58F6242A965A0029525F /* DayOneViewController.swift in Sources */,
