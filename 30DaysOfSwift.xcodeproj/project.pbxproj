@@ -10,6 +10,9 @@
 		9102175E245CA9A3009DF61C /* ios12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9102175D245CA9A3009DF61C /* ios12.jpg */; };
 		91021761245CAEF9009DF61C /* DayTwentyThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021760245CAEF9009DF61C /* DayTwentyThreeViewController.swift */; };
 		91021763245CAF03009DF61C /* Day23.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91021762245CAF03009DF61C /* Day23.storyboard */; };
+		91021766245CB76F009DF61C /* DayTwentyFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021765245CB76F009DF61C /* DayTwentyFourViewController.swift */; };
+		91021768245CB7A0009DF61C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021767245CB7A0009DF61C /* UIImage+Extension.swift */; };
+		9102176A245CB7B4009DF61C /* Day24.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91021769245CB7B4009DF61C /* Day24.storyboard */; };
 		910DEE8F244E1474006D4FF5 /* DayTwelveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE8E244E1474006D4FF5 /* DayTwelveViewController.swift */; };
 		910DEE91244E1482006D4FF5 /* Day12.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910DEE90244E1482006D4FF5 /* Day12.storyboard */; };
 		910DEE93244E14A1006D4FF5 /* DayTwelveAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEE92244E14A1006D4FF5 /* DayTwelveAddViewController.swift */; };
@@ -76,6 +79,9 @@
 		9102175D245CA9A3009DF61C /* ios12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ios12.jpg; path = "../../../../Xcode Projects/30DaysOfiOS12 2/30DaysOfiOS12/Assets.xcassets/ios12.imageset/ios12.jpg"; sourceTree = "<group>"; };
 		91021760245CAEF9009DF61C /* DayTwentyThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwentyThreeViewController.swift; sourceTree = "<group>"; };
 		91021762245CAF03009DF61C /* Day23.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day23.storyboard; sourceTree = "<group>"; };
+		91021765245CB76F009DF61C /* DayTwentyFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwentyFourViewController.swift; sourceTree = "<group>"; };
+		91021767245CB7A0009DF61C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		91021769245CB7B4009DF61C /* Day24.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day24.storyboard; sourceTree = "<group>"; };
 		910DEE8E244E1474006D4FF5 /* DayTwelveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwelveViewController.swift; sourceTree = "<group>"; };
 		910DEE90244E1482006D4FF5 /* Day12.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day12.storyboard; sourceTree = "<group>"; };
 		910DEE92244E14A1006D4FF5 /* DayTwelveAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwelveAddViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +166,16 @@
 				91021762245CAF03009DF61C /* Day23.storyboard */,
 			);
 			path = Day23;
+			sourceTree = "<group>";
+		};
+		91021764245CB756009DF61C /* Day24 */ = {
+			isa = PBXGroup;
+			children = (
+				91021765245CB76F009DF61C /* DayTwentyFourViewController.swift */,
+				91021767245CB7A0009DF61C /* UIImage+Extension.swift */,
+				91021769245CB7B4009DF61C /* Day24.storyboard */,
+			);
+			path = Day24;
 			sourceTree = "<group>";
 		};
 		910DEE8D244E1454006D4FF5 /* Day12 */ = {
@@ -386,6 +402,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				91021764245CB756009DF61C /* Day24 */,
 				9102175F245CAEDD009DF61C /* Day23 */,
 				913D0C0E2459E5F1009975E4 /* Day22 */,
 				911D40382458A09E00D73212 /* Day21 */,
@@ -523,6 +540,7 @@
 				910DEE91244E1482006D4FF5 /* Day12.storyboard in Resources */,
 				914D38E0242BE7EE00F47E33 /* Day2.storyboard in Resources */,
 				91E0625B244795DE00836999 /* Day11.storyboard in Resources */,
+				9102176A245CB7B4009DF61C /* Day24.storyboard in Resources */,
 				910DEE9D244F5A81006D4FF5 /* Day14.storyboard in Resources */,
 				91FD58E7242A85FB0029525F /* Day1.storyboard in Resources */,
 				914D38D7242BE58300F47E33 /* Main.storyboard in Resources */,
@@ -544,6 +562,7 @@
 				91D4920D2446318A0063BA46 /* DayEightViewController.swift in Sources */,
 				910DEE93244E14A1006D4FF5 /* DayTwelveAddViewController.swift in Sources */,
 				9110BCD72452180D00CA895D /* Day17Model.swift in Sources */,
+				91021766245CB76F009DF61C /* DayTwentyFourViewController.swift in Sources */,
 				910DEE9B244F5A76006D4FF5 /* DayFourteenViewController.swift in Sources */,
 				914F5627243F8F0C0049FE41 /* DayThreeViewController.swift in Sources */,
 				914F562C244109620049FE41 /* DayFourViewController.swift in Sources */,
@@ -557,6 +576,7 @@
 				911D403A2458A0B200D73212 /* DayTwentyOneViewController.swift in Sources */,
 				914D38E2242BE81B00F47E33 /* DayTwoViewController.swift in Sources */,
 				91FD58E0242A85FB0029525F /* AppDelegate.swift in Sources */,
+				91021768245CB7A0009DF61C /* UIImage+Extension.swift in Sources */,
 				91021761245CAEF9009DF61C /* DayTwentyThreeViewController.swift in Sources */,
 				910DEEA0244F75EA006D4FF5 /* DayFifteenViewController.swift in Sources */,
 				911D4035245893DC00D73212 /* DayTwentyViewController.swift in Sources */,

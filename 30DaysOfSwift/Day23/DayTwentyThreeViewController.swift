@@ -27,8 +27,9 @@ class DayTwentyThreeViewController: UIViewController {
     
     func applyFilter(_ image: CIImage){
         DispatchQueue.global().async {
-            sleep(5)
+            //delay by 5 for testing
             
+//            sleep(5)
             let filter = CIFilter(name: "CISepiaTone")!
             filter.setDefaults()
             filter.setValue(image, forKey: kCIInputImageKey)
