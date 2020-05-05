@@ -25,7 +25,7 @@ class Day26DownloadManager {
                 completionHandler(nil)
                 print(error.localizedDescription)
             }
-        }
+        }.resume()
     }
 }
 

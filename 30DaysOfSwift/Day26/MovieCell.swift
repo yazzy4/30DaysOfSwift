@@ -18,8 +18,8 @@ class MovieCell: UITableViewCell {
                         self.imageV.image = image
                     }
                 }
-                movieTitle.text = movie.title
-                movieDescription.text = movie.overview
+                movieTitle.text = movie.title!
+                movieDescription.text = movie.overview!
             }
         }
     }
