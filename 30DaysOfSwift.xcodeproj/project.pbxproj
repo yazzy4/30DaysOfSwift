@@ -81,6 +81,8 @@
 		91FD58E9242A85FE0029525F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FD58E8242A85FE0029525F /* Assets.xcassets */; };
 		91FD58EC242A85FE0029525F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD58EA242A85FE0029525F /* LaunchScreen.storyboard */; };
 		91FD58F6242A965A0029525F /* DayOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD58F5242A965A0029525F /* DayOneViewController.swift */; };
+		91FE55E524632B9B0000F7B3 /* DayTwentyEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE55E424632B9B0000F7B3 /* DayTwentyEightViewController.swift */; };
+		91FE55E724632BAB0000F7B3 /* Day28.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FE55E624632BAB0000F7B3 /* Day28.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +162,8 @@
 		91FD58EB242A85FE0029525F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91FD58ED242A85FE0029525F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91FD58F5242A965A0029525F /* DayOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOneViewController.swift; sourceTree = "<group>"; };
+		91FE55E424632B9B0000F7B3 /* DayTwentyEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwentyEightViewController.swift; sourceTree = "<group>"; };
+		91FE55E624632BAB0000F7B3 /* Day28.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Day28.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -447,6 +451,7 @@
 		91FD58DE242A85FB0029525F /* 30DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				91FE55E324632B7F0000F7B3 /* Day28 */,
 				912964812461F1A200BBB8B1 /* Day27 */,
 				912964782461C87B00BBB8B1 /* Day26 */,
 				912964732460A26600BBB8B1 /* Day25 */,
@@ -503,6 +508,15 @@
 				91FD58F3242A95E50029525F /* Main Page  */,
 			);
 			path = "Day1 ";
+			sourceTree = "<group>";
+		};
+		91FE55E324632B7F0000F7B3 /* Day28 */ = {
+			isa = PBXGroup;
+			children = (
+				91FE55E424632B9B0000F7B3 /* DayTwentyEightViewController.swift */,
+				91FE55E624632BAB0000F7B3 /* Day28.storyboard */,
+			);
+			path = Day28;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -594,6 +608,7 @@
 				9102176A245CB7B4009DF61C /* Day24.storyboard in Resources */,
 				910DEE9D244F5A81006D4FF5 /* Day14.storyboard in Resources */,
 				91FD58E7242A85FB0029525F /* Day1.storyboard in Resources */,
+				91FE55E724632BAB0000F7B3 /* Day28.storyboard in Resources */,
 				914D38D7242BE58300F47E33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,6 +642,7 @@
 				910DEE8F244E1474006D4FF5 /* DayTwelveViewController.swift in Sources */,
 				911D403A2458A0B200D73212 /* DayTwentyOneViewController.swift in Sources */,
 				914D38E2242BE81B00F47E33 /* DayTwoViewController.swift in Sources */,
+				91FE55E524632B9B0000F7B3 /* DayTwentyEightViewController.swift in Sources */,
 				912964832461F1C200BBB8B1 /* DayTwentySevenViewController.swift in Sources */,
 				91FD58E0242A85FB0029525F /* AppDelegate.swift in Sources */,
 				91021768245CB7A0009DF61C /* UIImage+Extension.swift in Sources */,
