@@ -31,7 +31,35 @@ class DayTwentyNineViewController: UIViewController {
     }
    
     @IBAction func detectLang(_ sender: UIButton){
+        let tagger = NSLinguisticTagger(tagSchemes: [NSLinguisticTagScheme.language], options: 0)
+        tagger.string = textView.text
+        langLocaleToName(localId: tagger.dominantLanguage!)
         
+    }
+    
+    func langLocaleToName(localId: String){
+        let locale = NSLocale(localeIdentifier: localId)
+        resultLabel.text = countryFromCode(code: localId) + "\n" + locale.displayName(forKey: .languageCode, value: localId)!
+    }
+    
+    //helper function to get country id
+    func countryFromCode(code: String) -> String {
+        // ko : Korean
+        // it : Italian
+        // ta : Tamil
+        // es : Spanish
+        // fi : Finish
+        // ja : Japanese
+        switch code {
+        case "ko": return "Korean"
+        case "it": return "Italian"
+        case "ta": return "Tamil"
+        case "es": return "Spanish"
+        case "fi": return "Finish"
+        case "ja": return "Japanese"
+        case "zh-Hant": return "Chinese(Traditional)"
+        default: return "English"
+        }
     }
 
 }
