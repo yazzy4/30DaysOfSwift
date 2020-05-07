@@ -16,6 +16,7 @@ class DayTwentyEightViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addCdube()
+        title = "ARKit"
     }
     
     override func viewWillAppear(_ animated: Bool) {
