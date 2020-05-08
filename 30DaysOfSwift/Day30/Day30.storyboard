@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dnD-8B-osd">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Day Thirty View Controller-->
+        <scene sceneID="gqh-vz-MSa">
+            <objects>
+                <viewController id="dnD-8B-osd" customClass="DayThirtyViewController" customModule="_0DaysOfSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M01-DZ-864">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-as-4JW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EY3-dc-CBT">
+                                <rect key="frame" x="324" y="602" width="41" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="📷"/>
+                            </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ID6-Lh-w4i">
+                                <rect key="frame" x="0.0" y="539" width="240" height="128"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="WAj-kJ-j8u">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a photo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygn-ph-bPY">
+                                            <rect key="frame" x="10" y="10" width="220" height="108"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Ygn-ph-bPY" firstAttribute="leading" secondItem="WAj-kJ-j8u" secondAttribute="leading" constant="10" id="WC4-0z-bdY"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ygn-ph-bPY" secondAttribute="trailing" constant="10" id="eaz-g7-cKA"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ygn-ph-bPY" secondAttribute="bottom" constant="10" id="fkA-X5-7wZ"/>
+                                        <constraint firstItem="Ygn-ph-bPY" firstAttribute="top" secondItem="WAj-kJ-j8u" secondAttribute="top" constant="10" id="wuN-F6-6dn"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="7Ee-gZ-JNb"/>
+                                    <constraint firstAttribute="height" constant="128" id="d0m-Ti-MHH"/>
+                                </constraints>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0ef-as-4JW" firstAttribute="leading" secondItem="5pE-Nr-dhX" secondAttribute="leading" id="3j0-Dc-d2T"/>
+                            <constraint firstItem="0ef-as-4JW" firstAttribute="top" secondItem="5pE-Nr-dhX" secondAttribute="top" id="8RS-N0-sfV"/>
+                            <constraint firstItem="5pE-Nr-dhX" firstAttribute="trailing" secondItem="0ef-as-4JW" secondAttribute="trailing" id="CU3-m2-Wiq"/>
+                            <constraint firstItem="5pE-Nr-dhX" firstAttribute="trailing" secondItem="EY3-dc-CBT" secondAttribute="trailing" constant="10" id="G54-ph-WKz"/>
+                            <constraint firstItem="5pE-Nr-dhX" firstAttribute="bottom" secondItem="0ef-as-4JW" secondAttribute="bottom" id="KVU-jA-sBx"/>
+                            <constraint firstItem="5pE-Nr-dhX" firstAttribute="bottom" secondItem="EY3-dc-CBT" secondAttribute="bottom" constant="10" id="NRj-pp-N3S"/>
+                            <constraint firstItem="ID6-Lh-w4i" firstAttribute="bottom" secondItem="5pE-Nr-dhX" secondAttribute="bottom" id="hMR-SK-loA"/>
+                            <constraint firstItem="ID6-Lh-w4i" firstAttribute="leading" secondItem="5pE-Nr-dhX" secondAttribute="leading" id="yP7-9u-ayL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5pE-Nr-dhX"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="0ef-as-4JW" id="MSl-hc-7jU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X8U-lI-wqx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158" y="36"/>
+        </scene>
+    </scenes>
+</document>
