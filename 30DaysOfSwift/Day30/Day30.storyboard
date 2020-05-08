@@ -64,6 +64,8 @@
                         <viewLayoutGuide key="safeArea" id="5pE-Nr-dhX"/>
                     </view>
                     <connections>
+                        <outlet property="cameraButton" destination="EY3-dc-CBT" id="fIQ-77-pZc"/>
+                        <outlet property="classificationLabel" destination="Ygn-ph-bPY" id="IJ5-Hk-hCX"/>
                         <outlet property="imageView" destination="0ef-as-4JW" id="MSl-hc-7jU"/>
                     </connections>
                 </viewController>
