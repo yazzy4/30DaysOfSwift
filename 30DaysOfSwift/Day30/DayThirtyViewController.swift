@@ -22,6 +22,7 @@ class DayThirtyViewController: UIViewController {
             let model = try VNCoreMLModel(for: MobileNet().model)
             let request = VNCoreMLRequest(model: model) { (request, error) in
                 //process classification with function
+                self.classification(for: request, error: error)
             }
             request.imageCropAndScaleOption = .centerCrop
             return request
@@ -37,7 +38,14 @@ class DayThirtyViewController: UIViewController {
 
     }
     
-
+    func classification(for request: VNRequest, error: Error?){
+        DispatchQueue.main.async {
+            guard let classResult = request.results else {
+                self.classificationLabel.text = "Unable to classify"
+                return
+            }
+        }
+    }
 
 
 }
