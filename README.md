@@ -3,7 +3,7 @@
 30 day coding challenge Skillshare course 
 
 ## Day 1
-**Objective**
+**Objective:**
 Create a view with a label and a button that when tapped calculates the number of taps
 
 **Utilized**: 
@@ -14,7 +14,7 @@ Tap Gesture recognizer, NumberFormatter
 - Useful for games
 
 ## Day 2
-**Objective**
+**Objective:**
 Create a view with a label that holds the count of taps and long press
 
 **Utilized**: 
@@ -25,12 +25,12 @@ Tap gesture recognizer, NumberFormatter
 
 
 ## Day 3
-**Objective**
+**Objective:**
 - Create a slider with a label named Alpha Slider
 - When sliding between 0 - max, Alpha Slider disappers gradually to 0 and gradually reappears until max
 
 **Utilized**: 
 UISlider
 
-**Notes**
+
 
