@@ -98,3 +98,11 @@ TableView row animation
 
 **Utilized**: 
 View Controller delegate
+
+## Day 12 
+**Objective:**
+- Navigation Bar customization
+
+
+**Utilized**: 
+ App Delegate
