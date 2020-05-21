@@ -74,3 +74,21 @@ Date Formatter
 
 **Utilized**: 
 UIImagePickerController, UINavigationControllerDelegate, UIImagePickerControllerDelegate
+
+## Day 10 
+**Objective:**
+- Create a table view of grocery items
+- Items refresh when table view is pulled
+
+**Utilized**: 
+ UIRefreshControl
+ 
+ ## Day 11 
+**Objective:**
+- With the same grocery list from yesterday enable editing for items
+- When bar button item "Edit" is pressed, user should be able to move cells to rearrange order and delete cells
+
+**Utilized**: 
+TableView row animation
+
+
