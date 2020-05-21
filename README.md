@@ -113,3 +113,11 @@ View Controller delegate
 
 **Utilized**: 
  System items
+ 
+ ## Day 15 
+**Objective:**
+- Create a contact list with image, name and address in a tableview
+- Info will be parsed from JSON
+
+**Utilized**: 
+JSON parsing, MVM
