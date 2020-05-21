@@ -50,3 +50,18 @@ Number formatter, tap gesture recognizer, segment control
 
 **Utilized**: 
 Date Formatter
+
+## Day 7 
+**Objective:**
+- Create two views that segue from one view to another 
+- Done navigation bar button should trigger segue
+
+
+## Day 8 
+**Objective:**
+- 
+- 
+
+**Utilized**: 
+ 
+
