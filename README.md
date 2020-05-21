@@ -91,4 +91,10 @@ UIImagePickerController, UINavigationControllerDelegate, UIImagePickerController
 **Utilized**: 
 TableView row animation
 
+## Day 11 
+**Objective:**
+- Create another list of grocery items
+- User should now be able to add grocery items to list when add button is pressed in navigation bar
 
+**Utilized**: 
+View Controller delegate
