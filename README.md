@@ -65,3 +65,12 @@ Date Formatter
 **Utilized**: 
  Swipe gesture recognizer
 
+
+## Day 9 
+**Objective:**
+- Create a textview and imageview  
+- User should be able to choose a new image from image picker when camera button is pressed in navigation
+- When image is selected, picker view/photo gallery should disappear
+
+**Utilized**: 
+UIImagePickerController, UINavigationControllerDelegate, UIImagePickerControllerDelegate
