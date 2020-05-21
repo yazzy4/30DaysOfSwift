@@ -59,9 +59,9 @@ Date Formatter
 
 ## Day 8 
 **Objective:**
-- 
-- 
+- Create a custom twitter keyboard
+- Keyboard should have dark appearance and respond to swipe down gesture to dismiss keyboard
 
 **Utilized**: 
- 
+ Swipe gesture recognizer
 
