@@ -121,3 +121,99 @@ View Controller delegate
 
 **Utilized**: 
 JSON parsing, MVM
+
+ ## Day 16 
+**Objective:**
+
+**Utilized**: 
+
+
+## Day 17 
+**Objective:**
+
+**Utilized**:
+
+
+
+## Day 18 
+**Objective:**
+
+**Utilized**: 
+
+
+## Day 19 
+**Objective:**
+
+**Utilized**: 
+
+
+## Day 20 
+**Objective:**
+
+**Utilized**: 
+
+
+## Day 20 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 21 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 22 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 23 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 24 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 25 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 26 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 27 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 28 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 29 
+**Objective:**
+
+**Utilized**:
+
+
+## Day 30 
+**Objective:**
+
+**Utilized**:
