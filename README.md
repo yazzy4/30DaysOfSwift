@@ -124,70 +124,84 @@ JSON parsing, MVM
 
  ## Day 16 
 **Objective:**
-
-**Utilized**: 
+- Create a tableview of different car types 
+- Car types will be sectioned off and alphabatized
 
 
 ## Day 17 
 **Objective:**
+- Create a tableview that populates a selection of movies, genres and actors
 
 **Utilized**:
-
+MVM
 
 
 ## Day 18 
 **Objective:**
+- Create a basic web view wth address bar 
+- Web view should connect to the internet when site name is entered
 
 **Utilized**: 
-
+WebKit, WKNavigationDelegate
 
 ## Day 19 
 **Objective:**
+- Create a view that handles user authentification
+- User must be notified to accept authentification
+- If authentification is verified, view turns green
+- If authentification is denied, view turns red
 
 **Utilized**: 
+LocalAuthentication, NSError
 
 
 ## Day 20 
 **Objective:**
+- Create a view with an image that animates
+- When immage is tapped, image flips right to left
 
 **Utilized**: 
-
-
-## Day 20 
-**Objective:**
-
-**Utilized**:
+UIAnimation, UIView
 
 
 ## Day 21 
 **Objective:**
-
-**Utilized**:
+- Create a collection view of images
 
 
 ## Day 22 
 **Objective:**
+- Create a view with a button that when pressed, schedules a notification
+- Notification is triggered after 2 seconds 
+- An image should appear in the notification
 
 **Utilized**:
+UserNotifications
 
 
 ## Day 23 
 **Objective:**
+- Create a view with an image and button
+- When button is pressed a filter is applied to the image
+- When the button is pressed again, the image returns to normal 
 
 **Utilized**:
-
+CGFilter
 
 ## Day 24 
 **Objective:**
+- Create a view with an image that is called from a URL
 
 **Utilized**:
-
+URLSession
 
 ## Day 25 
 **Objective:**
+- Create a view that displays your current location
+- If location can be given, an error message appears
 
 **Utilized**:
-
+CoreLocation
 
 ## Day 26 
 **Objective:**
