@@ -9,9 +9,7 @@ Create a view with a label and a button that when tapped calculates the number o
 **Utilized**: 
 Tap Gesture recognizer, NumberFormatter 
 
-**Notes**
-- A fun warm up activity
-- Useful for games
+
 
 ## Day 2
 **Objective:**
@@ -193,7 +191,7 @@ CGFilter
 - Create a view with an image that is called from a URL
 
 **Utilized**:
-URLSession
+URLSession, error handling
 
 ## Day 25 
 **Objective:**
@@ -203,11 +201,14 @@ URLSession
 **Utilized**:
 CoreLocation
 
+
 ## Day 26 
 **Objective:**
+- Create a tableview with movies, movie images and title
+- Movie data is parsed from an api and api key
 
 **Utilized**:
-
+URLSession, JSON, error handling 
 
 ## Day 27 
 **Objective:**
