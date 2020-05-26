@@ -208,27 +208,38 @@ CoreLocation
 - Movie data is parsed from an api and api key
 
 **Utilized**:
-URLSession, JSON, error handling 
+URLSession, JSON, error handling, MVM 
 
 ## Day 27 
 **Objective:**
+- Create a view with a textview with a button below it 
+- Textview will have a default input of some address
+- When the button is pressed, the address will be parsed into a new section divided by street, city, state, zip and phone number
 
 **Utilized**:
-
+NSText 
 
 ## Day 28 
 **Objective:**
+- Use ARkit to add a cube to camera view 
 
 **Utilized**:
+ARKit 
 
 
 ## Day 29 
 **Objective:**
+- Create a view with text and a button
+- When button is pressed the the language type is displayed 
 
 **Utilized**:
-
+NSLocale, NSLinguisticTagger
 
 ## Day 30 
 **Objective:**
-
+- Create a view with a camera button and label at the bottom of the screen 
+- When camera button is selected, the gallery appears
+- When image is selected, image is applied to view 
+- The label then detects the image type
 **Utilized**:
+ImageIO, CoreML, Vision
